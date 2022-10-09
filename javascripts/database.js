@@ -38,7 +38,7 @@ const DATA = [
             },
             {
                 name: "Color idle",
-                desc: "My third game that is supposed to be a remake of color game",
+                desc: "My third game, a remake of color game",
                 src: "https://buck4437.github.io/color-idle/"
             }
         ]
@@ -47,13 +47,11 @@ const DATA = [
         name: "Jokes",
         projects: [
             {
-                name: "ORANGe IDLe",
-                desc: "Best GAMe ever",
+                name: "Orange Idle",
                 src: "https://buck4437.github.io/orange-idle/"
             },
             {
                 name: "Paperclip Dimensions",
-                desc: "Antimatter Dimensions, but paperclips",
                 src: "https://buck4437.github.io/paperclip-dimensions/"
             },
         ]
