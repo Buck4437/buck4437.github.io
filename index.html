@@ -15,7 +15,8 @@
             </header>
             <main>
                 <div class="cat" v-for="cat in DATA" :key="cat.name">
-                    <span class="cat-name">{{cat.name}}</span>
+                    <div class="cat-name">{{cat.name}}</div>
+                    <hr class="cat-divider">
                     <div class="proj-list">
                         <div class="proj" v-for="proj in cat.projects" :key="proj.name">
                             <div class="text-con">
