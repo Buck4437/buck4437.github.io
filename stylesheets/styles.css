@@ -56,8 +56,8 @@ header {
     padding-bottom: 8px;
 }
 
-.proj-btn-con a {
-    padding-right: 8px;
+.proj-link {
+    margin-right: 8px;
 }
 
 /* All Mobile Sizes (devices and browser) */

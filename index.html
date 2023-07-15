@@ -23,12 +23,8 @@
                                 <div class="proj-name">{{proj.name}}</div>
                                 <div v-if="proj.desc" class="pre-formatted proj-desc">{{proj.desc}}</div>
                             </div>
-                            <div class="proj-btn-con">
-                                <a class="proj-btn" v-if="typeof proj.src === 'string'"
-                                   :href="proj.src" target="_blank">
-                                    Github
-                                </a>
-                                <a class="proj-btn" v-else v-for="link in proj.src"
+                            <div class="proj-link-con">
+                                <a class="proj-link" v-for="link in proj.src"
                                    :href="link.src" target="_blank">
                                     {{link.name}}
                                 </a>

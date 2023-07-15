@@ -19,7 +19,12 @@ const DATA = [
             {
                 name: "AD Save bank",
                 desc: "A place to store save files of the game 'Antimatter Dimensions'.",
-                src: "https://buck4437.github.io/save-bank/"
+                src: [
+                    {
+                        name: "Github",
+                        src: "https://buck4437.github.io/save-bank/"
+                    }
+                ]
             }
         ]
     },
@@ -29,17 +34,32 @@ const DATA = [
             {
                 name: "Spatial Layering",
                 desc: "My first game",
-                src: "https://buck4437.github.io/spatial-layering/"
+                src: [
+                    {
+                        name: "Github",
+                        src: "https://buck4437.github.io/spatial-layering/"
+                    }
+                ]
             },
             {
                 name: "Color game",
                 desc: "My second game",
-                src: "https://buck4437.github.io/color-game/"
+                src: [
+                    {
+                        name: "Github",
+                        src: "https://buck4437.github.io/color-game/"
+                    }
+                ]
             },
             {
                 name: "Color idle",
                 desc: "My third game, a remake of color game",
-                src: "https://buck4437.github.io/color-idle/"
+                src: [
+                    {
+                        name: "Github",
+                        src: "https://buck4437.github.io/color-idle/"
+                    }
+                ]
             }
         ]
     },
@@ -48,12 +68,22 @@ const DATA = [
         projects: [
             {
                 name: "Orange Idle",
-                src: "https://buck4437.github.io/orange-idle/"
+                src: [
+                    {
+                        name: "Github",
+                        src: "https://buck4437.github.io/orange-idle/"
+                    }
+                ]
             },
             {
                 name: "Paperclip Dimensions",
-                src: "https://buck4437.github.io/paperclip-dimensions/"
-            },
+                src: [
+                    {
+                        name: "Github",
+                        src: "https://buck4437.github.io/paperclip-dimensions/"
+                    }
+                ]
+            }
         ]
     },
     // {
