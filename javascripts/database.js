@@ -64,6 +64,31 @@ const DATA = [
         ]
     },
     {
+        name: "Misc",
+        projects: [
+            {
+                name: "Puzzles",
+                src: [
+                    {
+                        name: "Puzzles",
+                        desc: "This is where I dump all my puzzle ideas.",
+                        src: "https://buck4437.github.io/puzzles/index.html/"
+                    }
+                ]
+            },
+            {
+                name: "Crossword",
+                src: [
+                    {
+                        name: "Crossword",
+                        desc: "A place for me to put all my crosswords.",
+                        src: "https://buck4437.github.io/crosswords/"
+                    }
+                ]
+            }
+        ]
+    },
+    {
         name: "Jokes",
         projects: [
             {
@@ -85,15 +110,5 @@ const DATA = [
                 ]
             }
         ]
-    },
-    // {
-    //     name: "Misc",
-    //     projects: [
-    //         {
-    //             name: "Puzzles",
-    //             desc: "This is where I'll dump all my puzzle ideas",
-    //             src: "puzzles/index.html"
-    //         }
-    //     ]
-    // }
+    }
 ];
