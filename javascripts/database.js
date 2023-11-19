@@ -68,23 +68,13 @@ const DATA = [
         projects: [
             {
                 name: "Puzzles",
-                src: [
-                    {
-                        name: "Puzzles",
-                        desc: "This is where I dump all my puzzle ideas.",
-                        src: "https://buck4437.github.io/puzzles/index.html/"
-                    }
-                ]
+                desc: "This is where I dump all my puzzle ideas.",
+                src: "https://buck4437.github.io/Puzzles/"
             },
             {
                 name: "Crossword",
-                src: [
-                    {
-                        name: "Crossword",
-                        desc: "A place for me to put all my crosswords.",
-                        src: "https://buck4437.github.io/crosswords/"
-                    }
-                ]
+                desc: "A place for me to put all my crosswords.",
+                src: "https://buck4437.github.io/crosswords/"
             }
         ]
     },
