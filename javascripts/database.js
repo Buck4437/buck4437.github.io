@@ -69,12 +69,22 @@ const DATA = [
             {
                 name: "Puzzles",
                 desc: "This is where I dump all my puzzle ideas.",
-                src: "https://buck4437.github.io/Puzzles/"
+                src: [
+                    {
+                        name: "Github",
+                        src: "https://buck4437.github.io/Puzzles/"
+                    }
+                ]
             },
             {
                 name: "Crossword",
                 desc: "A place for me to put all my crosswords.",
-                src: "https://buck4437.github.io/crosswords/"
+                src: [
+                    {
+                        name: "Github",
+                        src: "https://buck4437.github.io/crosswords/"
+                    }
+                ]
             }
         ]
     },
