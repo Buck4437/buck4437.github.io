@@ -29,6 +29,31 @@ const DATA = [
         ]
     },
     {
+        name: "Side Projects",
+        projects: [
+            {
+                name: "Day Counter",
+                desc: "A primitive website for task management and keeping track of dates.",
+                src: [
+                    {
+                        name: "Github",
+                        src: "https://buck4437.github.io/day-counter/"
+                    }
+                ]
+            },
+            {
+                name: "World's End Domination",
+                desc: "An abandoned incremental game prototype.",
+                src: [
+                    {
+                        name: "Github",
+                        src: "https://buck4437.github.io/worlds-end-domination/"
+                    }
+                ]
+            }
+        ]
+    },
+    {
         name: "Old Projects",
         projects: [
             {
@@ -100,15 +125,6 @@ const DATA = [
                     }
                 ]
             },
-            {
-                name: "Paperclip Dimensions",
-                src: [
-                    {
-                        name: "Github",
-                        src: "https://buck4437.github.io/paperclip-dimensions/"
-                    }
-                ]
-            }
         ]
     }
 ];

@@ -16,6 +16,10 @@ header {
     text-align: center;
 }
 
+.github-link {
+    margin-bottom: 16px;
+}
+
 .cat {
     margin-bottom: 16px;
 }
